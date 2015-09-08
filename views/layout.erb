@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bike Polo Tube</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <h1>POLO</h1><img src="/images/polotvlogo.png" alt="logo"><h1>TUBE</h1>
+</header>
+  <nav>
+    <ul>
+      <li><a href="/videos">Home</a></li>
+      <li><a href="/videos/categories">Categories</a></li>
+      <li><a href="/mostviewed">Most Viewed</a></li>
+      <li><a href="/videos/new">Submit Video</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h3> <%= @header %> </h3>
+  </header>
+  <main>
+    
+    <%= yield %>
+
+  </main>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
